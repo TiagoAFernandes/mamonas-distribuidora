@@ -1,0 +1,20 @@
+# Ignorar diretórios do Docker
+mysql/
+
+# Ignorar arquivos de configuração do Docker
+*.log
+.env
+
+# Ignorar uploads e cache do WordPress
+# wordpress/wp-content/uploads/
+# wordpress/wp-content/cache/
+# wordpress/wp-content/upgrade/
+# wordpress/wp-content/debug.log
+
+# Ignorar arquivos do IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignorar dependências do Node (se usar algum build)
+node_modules/
